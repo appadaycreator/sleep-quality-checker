@@ -25,6 +25,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
 <meta name="twitter:image" content="https://appadaycreator.com/assets/ogp-default.png" />
 <meta name="twitter:description" content="睡眠時間・眠りの深さ・日中の眠気などから睡眠の質を診断し改善アドバイスを提案。登録不要・完全無料でご利用いただけます。" />
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="睡眠の質チェッカー【無料】無料診断・アドバイス" />
     
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>😴</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,7 +90,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
     <header class="site-header" role="banner">
         <div class="emoji" aria-hidden="true">😴</div>
         <h1>睡眠の質チェッカー</h1>
-        <p>睡眠時間・眠りの深さ・日中の眠気などから睡眠の質を診断し改善アドバイスを提案...</p>
+        <p>睡眠時間・眠りの深さ・日中の眠気などから睡眠の質を診断し改善アドバイスを提案提案。登録不要・完全無料。</p>
     </header>
 
     <main id="main-content" class="container" role="main" aria-label="睡眠の質チェッカーのメインコンテンツ">
@@ -105,14 +106,14 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
         <div id="quiz-area" style="display:none;">
           <div style="font-size:12px;color:#999;margin-bottom:8px;">質問 <span id="q-num">1</span> / <span id="q-total">5</span></div>
           <div id="q-progress" style="height:4px;background:#e5e7eb;border-radius:2px;margin-bottom:16px;">
-            <div id="q-bar" style="height:100%;background:#6366F1;border-radius:2px;transition:width .3s;width:20%;"></div>
+            <div id="q-bar" style="height:100%;background:#7c3aed;border-radius:2px;transition:width .3s;width:20%;"></div>
           </div>
           <p id="q-text" style="font-size:16px;font-weight:600;margin-bottom:16px;"></p>
           <div id="q-options"></div>
         </div>
         <div class="result" id="result">
           <div class="card">
-            <h3 id="r-title" style="font-size:18px;font-weight:700;margin-bottom:8px;color:#6366F1;"></h3>
+            <h3 id="r-title" style="font-size:18px;font-weight:700;margin-bottom:8px;color:#7c3aed;"></h3>
             <p id="r-desc" style="color:#444;font-size:14px;line-height:1.7;"></p>
             <button class="btn" style="margin-top:16px;" onclick="location.reload()">もう一度診断</button>
           </div>
@@ -122,9 +123,9 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
         <div class="card" style="margin-top:8px;">
             <h3 style="font-size:13px;font-weight:600;color:#888;margin-bottom:10px;">🔗 関連サービス</h3>
             <div style="display:flex;flex-direction:column;gap:6px;">
-                <a href="https://appadaycreator.com/stretch-timer/" style="color:#6366f1;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">ストレッチタイマー・記録ツール →</a>
-                <a href="https://appadaycreator.com/mental-health-checker/" style="color:#6366f1;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">メンタルヘルス・ストレスチェック →</a>
-                <a href="https://appadaycreator.com/morning-routine-planner/" style="color:#6366f1;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">朝ルーティン最適化ツール →</a>
+                <a href="https://appadaycreator.com/stretch-timer/" style="color:#7c3aed;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">ストレッチタイマー・記録ツール →</a>
+                <a href="https://appadaycreator.com/mental-health-checker/" style="color:#7c3aed;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">メンタルヘルス・ストレスチェック →</a>
+                <a href="https://appadaycreator.com/morning-routine-planner/" style="color:#7c3aed;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">朝ルーティン最適化ツール →</a>
             </div>
         </div>
 
@@ -218,7 +219,7 @@ j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src=
       if(total <= 12) return RESULTS[2];
       return RESULTS[3];
     }
-    const BTN='#6366F1'; let cur=0; const ans=[];
+    const BTN='#7c3aed'; let cur=0; const ans=[];
     document.addEventListener('DOMContentLoaded',()=>{ document.getElementById('q-total').textContent=QUESTIONS.length; });
     function startQuiz(){ cur=0;ans.length=0; document.getElementById('quiz-start').style.display='none'; document.getElementById('quiz-area').style.display='block'; document.getElementById('result').classList.remove('show'); renderQ(); }
     function renderQ(){
